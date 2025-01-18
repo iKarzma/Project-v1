@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Smart Village</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../nav.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="footer.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top text-white">
+    <div class="container">
+      <a class="navbar-brand" href="../../../index.html" style="color: white;">Smart Village</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon navbar-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="../../../website pages/home.html" style="color: white;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about" style="color: white;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../website pages/main/about/ser.html" style="color: white;">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../website pages/main/about/contact.html" style="color: white;">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <span class="hero-subtitle">Welcome to Smart Village</span>
+      <h1>Meet Our Team</h1>
+      <p>The talented individuals behind Smart Village's success</p>
+      <div class="hero-buttons">
+        <button class="btn-primary" onclick="scrollToTeam()">Get Started</button>
+        <button class="btn-secondary" onclick="scrollToTeam()">Learn More</button>
+      </div>
+    </div>
+    <div class="hero-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-curve"></div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team-members" class="team-section">
+    <div class="container">
+      <div class="team-grid">
+        <!-- Team Member 1 -->
+        <div class="team-member" data-aos="fade-up">
+          <div class="member-content">
+            <div class="member-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="member-info">
+              <h3>AbdulRahman Ahmed</h3>
+              <p>Web Developer</p>
+              <span class="member-quote">"Building the future through code"</span>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+          <div class="member-content">
+            <div class="member-icon">
+              <i class="fas fa-plane"></i>
+            </div>
+            <div class="member-info">
+              <h3>Amr Khalil</h3>
+              <p>Plane</p>
+              <span class="member-quote">"Innovation through design"</span>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member-content">
+            <div class="member-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="member-info">
+              <h3>Rahma Mohamed</h3>
+              <p>Create Personation</p>
+              <span class="member-quote">"Crafting unique experiences"</span>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member-content">
+            <div class="member-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <div class="member-info">
+              <h3>Shorok Korashi</h3>
+              <p>Supporter</p>
+              <span class="member-quote">"Supporting dreams to reality"</span>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="400">
+          <div class="member-content">
+            <div class="member-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="member-info">
+              <h3>Habiba Hisham</h3>
+              <p>Supporter</p>
+              <span class="member-quote">"Empowering through support"</span>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+      <!-- About Us Section -->
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <p>Smart Village is dedicated to empowering talents and fostering creativity in our community.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links Section -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info Section -->
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <ul class="contact-info">
+          <li><i class="fas fa-phone"></i>+1234 567 890</li>
+          <li><i class="fas fa-envelope"></i>info@smartvillage.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>123 Smart Street, Digital City</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 Smart Village. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="about.js"></script>
+</body>
+
+</html>

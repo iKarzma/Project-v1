@@ -1,0 +1,50 @@
+
+/* Back to Top Button */
+.btn-top {
+  position: fixed !important;
+  bottom: 30px !important;
+  right: 30px !important;
+  width: 45px !important;
+  height: 45px !important;
+  background-color: #fea116 !important;
+  color: #ffffff !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transition: all 0.3s ease !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  -webkit-transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -ms-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+}
+
+.btn-top.active {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.btn-top:hover {
+  background-color: #eb9310 !important;
+  color: #ffffff !important;
+  transform: translateY(-3px) !important;
+  -webkit-transform: translateY(-3px) !important;
+  -moz-transform: translateY(-3px) !important;
+  -ms-transform: translateY(-3px) !important;
+  -o-transform: translateY(-3px) !important;
+}
+
+.btn-top i {
+  font-size: 20px !important;
+  -webkit-font-size: 20px !important;
+  -moz-font-size: 20px !important;
+  -ms-font-size: 20px !important;
+  -o-font-size: 20px !important;
+}
